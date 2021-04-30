@@ -33,10 +33,16 @@ body{
 }
 .user_name{
     margin-bottom: 5px;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-top: 20px;
 }
 .skill{
     color: rgba(255, 255, 255, 0.555);
+}
+.education{
+    color: rgb(255, 255, 255, 0.555);
+    margin-top: 5px;
+    font-size: 0.75rem;
 }
 /* arrow */
 .arr_container, .cancel{
@@ -53,10 +59,10 @@ body{
     transition: all .4s;
 }
 .arr_container{
-    transform: rotate(45deg);
+    transform: rotate();
 }
 .active_arr{
-    transform: translate(80%,80%);
+    transform: translate(80%,80%) rotate(45deg);
 }
 .left_container{
     position: absolute;
@@ -83,7 +89,7 @@ body{
     border: 1px solid rgb(155, 155, 155);
     padding: 5px 10px;
     font-size: .9rem;
-    margin: 4px 4px 4px 0;
+    margin: 15px 4px 4px 0;
 }
 .left_container .icons{
     font-size: 1.6rem;
